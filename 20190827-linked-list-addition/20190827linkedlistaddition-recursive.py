@@ -6,7 +6,19 @@ class ListNode(object):
 
 class Solution:
   def addTwoNumbers(self, l1, l2, c = 0):
-    # Fill this in.
+############################# my solution START ############################
+    solution = ListNode(0)
+
+    sum = l1.val + l2.val + c
+    digit = sum % 10
+    c = sum / 10
+    solution.val = digit
+
+    if l1.next is not None:
+      solution.next = Solution.addTwoNumbers(self, l1.next, l2.next, c)
+    return solution
+############################### my solution END ##########################
+
 
 l1 = ListNode(2)
 l1.next = ListNode(4)
