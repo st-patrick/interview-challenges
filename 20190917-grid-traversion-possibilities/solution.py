@@ -20,3 +20,5 @@ print num_ways(3,2)
 # 3
 print num_ways(3,3)
 # 6
+print num_ways(4,3)
+#10

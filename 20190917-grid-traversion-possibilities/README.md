@@ -7,10 +7,10 @@ This should return 2, since the only possible routes are:
 Right, down
 Down, right.
 
-Here's the signature:
 
-def num_ways(n, m):
-  # Fill this in.
 
-print num_ways(2, 2)
-# 2
+
+
+### my personal sketch
+
+![alt text](https://raw.githubusercontent.com/st-patrick/interview-challenges/tree/master/20190917-grid-traversion-possibilities/sketch.jpg "my sketch for the problem")
