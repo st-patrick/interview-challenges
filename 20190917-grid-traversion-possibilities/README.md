@@ -13,4 +13,4 @@ Down, right.
 
 ### my personal sketch
 
-![alt text](https://raw.githubusercontent.com/st-patrick/interview-challenges/tree/master/20190917-grid-traversion-possibilities/sketch.jpg "my sketch for the problem")
+![alt text](https://raw.githubusercontent.com/st-patrick/interview-challenges/master/20190917-grid-traversion-possibilities/sketch.jpg "my sketch for the problem")
