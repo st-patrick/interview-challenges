@@ -40,6 +40,9 @@ string Solution::pushDominoes(string dominoes)
 					dominoes[i - j] = 'L'; 
 				}
 			} else {
+				for (int j = last_index; j < i; j++) {
+                                        dominoes[j] = 'L';
+                                }
 			}
 			last_index = i;
 			break;
